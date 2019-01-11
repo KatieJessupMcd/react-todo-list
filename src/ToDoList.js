@@ -21,7 +21,7 @@ class ToDoList extends Component {
 
   renderTasks() {
     return (
-      <ol>
+      <ol id="to-do-list">
         {this.state.tasks.map(t => (
           <li key={t.id}>
             <Todo
