@@ -51,6 +51,8 @@ class ToDoList extends Component {
       tasks: currState.tasks.map(function(t) {
         if (t.id === taskId) {
           t.task = task;
+          // p.title = title
+          // p.des
         }
         return t;
       })
